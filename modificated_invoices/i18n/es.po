@@ -1,0 +1,32 @@
+# Translation of Odoo Server.
+
+msgid ""
+msgstr ""
+
+
+#. module: modificated_invoices
+#: model:ir.model.fields,field_description:modificated_invoices.field_account_move__type_document
+msgid "Type of Document"
+msgstr "Tipo de Documento"
+
+#. module: modificated_invoices
+#: model:res.groups,name:modificated_invoices.group_modificated_invoices_admin
+msgid "Administrator"
+msgstr "Administrador"
+
+#. module: modificated_invoices
+#: model:res.groups,name:modificated_invoices.group_modificated_invoices_user
+msgid "User"
+msgstr "Usuario"
+
+
+
+#. module: modificated_invoices
+#: model:res.groups,comment:modificated_invoices.group_modificated_invoices_admin
+msgid "Group that can modify document type."
+msgstr "Grupo que puede modificar el tipo de documento."
+
+#. module: modificated_invoices
+#: model:res.groups,comment:modificated_invoices.group_modificated_invoices_user
+msgid "Group that cannot modify document type."
+msgstr "Grupo que no puede modificar el tipo de documento."

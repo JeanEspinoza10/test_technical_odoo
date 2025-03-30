@@ -1,0 +1,34 @@
+# Translation of Odoo Server.
+
+msgid ""
+msgstr ""
+
+#. module: currency_converter
+#: model:ir.ui.menu,name:currency_converter.menu_currency_converter_root
+msgid "Currency Converter"
+msgstr "Convertidor de Divisas"
+
+#. module: currency_converter
+#: model:ir.ui.menu,name:currency_converter.menu_currency_converter
+msgid "Conversions"
+msgstr "Conversiones"
+
+#. module: currency_converter
+#: model:ir.actions.act_window,name:currency_converter.action_currency_converter
+msgid "Currency Converter"
+msgstr "Convertidor de Divisas"
+
+#. module: currency_converter
+#: model:ir.model.fields,field_description:currency_converter.field_currency_converter__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: currency_converter
+#: model:ir.model.fields,field_description:currency_converter.field_currency_converter__type_currency
+msgid "Type of currency"
+msgstr "Tipo de moneda"
+
+#. module: currency_converter
+#: model:ir.model.fields,field_description:currency_converter.field_currency_converter__conversion_format
+msgid "Conversion Format"
+msgstr "Formato en letras"

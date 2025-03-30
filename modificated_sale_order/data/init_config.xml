@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="sale_custom_config_1" model="sale.custom.config">
+        <field name="name">Validación de Stock</field>
+        <field name="state">True</field>
+    </record>
+
+    <record id="sale_custom_config_2" model="sale.custom.config">
+        <field name="name">Validación de Pagos</field>
+        <field name="state">False</field>
+    </record>
+</odoo>

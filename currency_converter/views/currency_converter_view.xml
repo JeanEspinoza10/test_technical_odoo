@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_currency_converter_tree" model="ir.ui.view">
+        <field name="name">currency.converter.tree</field>
+        <field name="model">currency.converter</field>
+        <field name="arch" type="xml">
+            <tree string="Currency Converter">
+                <field name="quantity"/>
+                <field name="type_currency"/>
+                <field name="conversion_format"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_currency_converter_form" model="ir.ui.view">
+        <field name="name">currency.converter.form</field>
+        <field name="model">currency.converter</field>
+        <field name="arch" type="xml">
+            <form string="Currency Converter">
+                <sheet>
+                    <group>
+                        <field name="quantity"/>
+                        <field name="type_currency"/>
+                        <field name="conversion_format" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_currency_converter" model="ir.actions.act_window">
+        <field name="name">Currency Converter</field>
+        <field name="res_model">currency.converter</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="view_currency_converter_tree"/>
+    </record>
+
+    <menuitem 
+      id="menu_currency_converter_root" 
+      name="Currency Converter" 
+      sequence="10"
+    />
+
+    <menuitem 
+      id="menu_currency_converter" 
+      name="Conversions" 
+      parent="menu_currency_converter_root" 
+      action="action_currency_converter"
+    />
+</odoo>

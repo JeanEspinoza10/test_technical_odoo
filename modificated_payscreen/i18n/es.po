@@ -1,0 +1,9 @@
+# Translation of Odoo Server.
+
+msgid ""
+msgstr ""
+
+#. module: modificated_payscreen
+#: model:ir.model.fields,field_description:modificated_payscreen.field_pos_payment__number_operation
+msgid "Number Operation"
+msgstr "Número de Operación"

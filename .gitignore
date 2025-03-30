@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Distribution / packaging
+.Python
+dist/
+build/
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+*.sublime*
+
+# Odoo specific
+*.db
+*.pot
+*.pyc
+odoo/__manifest__.pyc
+odoo/__pycache__/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
